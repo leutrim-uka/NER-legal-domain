@@ -51,12 +51,12 @@ Furthermore, since BART is a generative model, it does not explicitly perform cl
 # Results
 BART performed better than BERT, with macro F1 scores of 0.74 and 0.66, respectively. The models showed overfitting tendencies within very few epochs of training.
 
-![img.png](img.png)
+![img.png](plots/img.png)
 
 BERT scored best with the labels DATE and PROVISION, with an F1 score of 0.81. The lowest-scoring label is LAWYER, with an F1 score of only 0.17. 
 
-![img_1.png](img_1.png)
+![img_1.png](plots/img_1.png)
 
 BART, on the other hand, got an F1 score of over 0.5 on all entities. The highest F1 score was achieved with the label WITTNESS (0.95), whereas the lowest one turned out to be the label PRECEDENT (0.55).
 
-![img_2.png](img_2.png)
+![img_2.png](plots/img_2.png)
