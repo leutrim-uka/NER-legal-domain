@@ -1,0 +1,11 @@
+# ignore venv
+venv
+
+# all .idea files
+.idea/
+*.json
+saved_models/BART/merges.txt
+saved_models/BART/pytorch_model.bin
+src/bart/__pycache__/BartModel.cpython-310.pyc
+*.pyc
+saved_models/GPT2/GPT2.zip
